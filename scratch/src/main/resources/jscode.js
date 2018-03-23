@@ -17,7 +17,7 @@ var odds = _.filter(numbers, function (num) {
 });
 print("Odds from " + numbers + " are: " + odds); 
 
-// class scratch_3 that contains a public member called ID
+// class 'com.scratch.app.NashornSample' that contains a public member called ID
 print("Java Object: " + javaObj.ID);
 
 function getMsg() {
