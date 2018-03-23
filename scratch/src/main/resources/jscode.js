@@ -1,13 +1,15 @@
 var greeting = 'hey, helloooooo world';
 
 // Java class being instantiated 
-var javaClass = Java.type('com.xxx.yyy.scratch_3');
+var javaClass = Java.type('com.scratch.app.NashornSample');
 
 // 'name' and 'surname' are being bind in Java side
 var fullName = name  + " " + surname
 
 // loading external library
 load('file:///C://Users//lucasmor//temp//underscore-min.js');
+// load('http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js');
+
 // 'numbers' is being bind in Java side
 var odds = _.filter(numbers, function (num) {
     print("num: " + num)
