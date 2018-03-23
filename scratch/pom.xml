@@ -12,6 +12,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
 	<!-- set the main class to be used at time to execute the app using "mvn exec:java" -->
 	<exec.mainClass>com.scratch.app.App</exec.mainClass>
+	<!-- Setting the -source and -target of the Java Compiler -->
+	<maven.compiler.source>1.8</maven.compiler.source>
+    	<maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   
   <dependencies>
