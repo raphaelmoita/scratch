@@ -7,8 +7,8 @@ var javaClass = Java.type('com.scratch.app.NashornSample');
 var fullName = name  + " " + surname
 
 // loading external library
-load('file:///C://Users//lucasmor//temp//underscore-min.js');
-// load('http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js');
+//load('file:///C://underscore-min.js');
+load('http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js');
 
 // 'numbers' is being bind in Java side
 var odds = _.filter(numbers, function (num) {
