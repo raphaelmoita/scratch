@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 class Test {
 
     private static BiConsumer<String, Map<Integer, Double>> results = (gender, info) ->
-            info.forEach((age, weight) -> System.out.println(String.format("Gender: %s - Age: %s - Average weight: %f", gender, age, weight)));
+            info.forEach((age, weight) -> System.out.println(String.format("Gender: %s - Age: %s - Average weight: %.2f", gender, age, weight)));
 
     public static void main(String... args) {
         final List<Person> users = Arrays.asList(
